@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9548838025123B6900FFF928 /* ExtensionWeatherVC + location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9548837F25123B6900FFF928 /* ExtensionWeatherVC + location.swift */; };
+		9548838225123D6300FFF928 /* ExtensionWeatherVC + textFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9548838125123D6300FFF928 /* ExtensionWeatherVC + textFieldDelegate.swift */; };
+		954883862512533200FFF928 /* VC +helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954883852512533200FFF928 /* VC +helpers.swift */; };
+		95488388251255F900FFF928 /* FavoritesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95488387251255F900FFF928 /* FavoritesCell.swift */; };
 		958F0F3625110B080061391F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F0F3525110B080061391F /* AppDelegate.swift */; };
-		958F0F3825110B080061391F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F0F3725110B080061391F /* SceneDelegate.swift */; };
-		958F0F3A25110B080061391F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F0F3925110B080061391F /* ViewController.swift */; };
+		958F0F3A25110B080061391F /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F0F3925110B080061391F /* WeatherViewController.swift */; };
 		958F0F3D25110B080061391F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958F0F3B25110B080061391F /* Main.storyboard */; };
 		958F0F3F25110B0B0061391F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958F0F3E25110B0B0061391F /* Assets.xcassets */; };
 		958F0F4225110B0B0061391F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958F0F4025110B0B0061391F /* LaunchScreen.storyboard */; };
+		95CF543925110D0100941DC0 /* UIColor+theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CF543825110D0100941DC0 /* UIColor+theme.swift */; };
+		95CF543B251141CF00941DC0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CF543A251141CF00941DC0 /* NetworkManager.swift */; };
+		95CF543D251146E200941DC0 /* OpenWeatherAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CF543C251146E200941DC0 /* OpenWeatherAPIRequest.swift */; };
+		95CF543F251157F200941DC0 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CF543E251157F200941DC0 /* FavoritesListViewController.swift */; };
+		95CF544225115ABA00941DC0 /* SunnyDayModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95CF544025115ABA00941DC0 /* SunnyDayModel.xcdatamodeld */; };
+		95CF544425115ACC00941DC0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CF544325115ACC00941DC0 /* CoreDataManager.swift */; };
+		95CF544A251163DC00941DC0 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CF5449251163DC00941DC0 /* WeatherManager.swift */; };
+		95E1CF5225140BA80089822C /* ExtensionFavoritesVC+tableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E1CF5125140BA80089822C /* ExtensionFavoritesVC+tableView.swift */; };
+		95E7A78F2513F1A900FB3E94 /* Sunny Day Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 95E7A78E2513F1A900FB3E94 /* Sunny Day Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9548837F25123B6900FFF928 /* ExtensionWeatherVC + location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExtensionWeatherVC + location.swift"; sourceTree = "<group>"; };
+		9548838125123D6300FFF928 /* ExtensionWeatherVC + textFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExtensionWeatherVC + textFieldDelegate.swift"; sourceTree = "<group>"; };
+		954883852512533200FFF928 /* VC +helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC +helpers.swift"; sourceTree = "<group>"; };
+		95488387251255F900FFF928 /* FavoritesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCell.swift; sourceTree = "<group>"; };
 		958F0F3225110B080061391F /* Sunny Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sunny Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		958F0F3525110B080061391F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		958F0F3725110B080061391F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		958F0F3925110B080061391F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		958F0F3925110B080061391F /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		958F0F3C25110B080061391F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		958F0F3E25110B0B0061391F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		958F0F4125110B0B0061391F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		958F0F4325110B0B0061391F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95CF543825110D0100941DC0 /* UIColor+theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+theme.swift"; sourceTree = "<group>"; };
+		95CF543A251141CF00941DC0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		95CF543C251146E200941DC0 /* OpenWeatherAPIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherAPIRequest.swift; sourceTree = "<group>"; };
+		95CF543E251157F200941DC0 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
+		95CF544125115ABA00941DC0 /* SunnyDayModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SunnyDayModel.xcdatamodel; sourceTree = "<group>"; };
+		95CF544325115ACC00941DC0 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		95CF5449251163DC00941DC0 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		95E1CF5125140BA80089822C /* ExtensionFavoritesVC+tableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExtensionFavoritesVC+tableView.swift"; sourceTree = "<group>"; };
+		95E7A78E2513F1A900FB3E94 /* Sunny Day Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Sunny Day Readme.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +64,7 @@
 		958F0F2925110B080061391F = {
 			isa = PBXGroup;
 			children = (
+				95E7A78E2513F1A900FB3E94 /* Sunny Day Readme.md */,
 				958F0F3425110B080061391F /* Sunny Day */,
 				958F0F3325110B080061391F /* Products */,
 			);
@@ -57,14 +82,57 @@
 			isa = PBXGroup;
 			children = (
 				958F0F3525110B080061391F /* AppDelegate.swift */,
-				958F0F3725110B080061391F /* SceneDelegate.swift */,
-				958F0F3925110B080061391F /* ViewController.swift */,
-				958F0F3B25110B080061391F /* Main.storyboard */,
-				958F0F3E25110B0B0061391F /* Assets.xcassets */,
-				958F0F4025110B0B0061391F /* LaunchScreen.storyboard */,
+				95CF544825115B9A00941DC0 /* Helper */,
+				95CF544725115B8300941DC0 /* View */,
+				95CF544625115B6900941DC0 /* Controller */,
+				95CF544525115B5600941DC0 /* Manager */,
 				958F0F4325110B0B0061391F /* Info.plist */,
 			);
 			path = "Sunny Day";
+			sourceTree = "<group>";
+		};
+		95CF544525115B5600941DC0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				95CF543A251141CF00941DC0 /* NetworkManager.swift */,
+				95CF543C251146E200941DC0 /* OpenWeatherAPIRequest.swift */,
+				95CF544325115ACC00941DC0 /* CoreDataManager.swift */,
+				95CF5449251163DC00941DC0 /* WeatherManager.swift */,
+				95CF544025115ABA00941DC0 /* SunnyDayModel.xcdatamodeld */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		95CF544625115B6900941DC0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				958F0F3925110B080061391F /* WeatherViewController.swift */,
+				9548838125123D6300FFF928 /* ExtensionWeatherVC + textFieldDelegate.swift */,
+				9548837F25123B6900FFF928 /* ExtensionWeatherVC + location.swift */,
+				95CF543E251157F200941DC0 /* FavoritesListViewController.swift */,
+				95E1CF5125140BA80089822C /* ExtensionFavoritesVC+tableView.swift */,
+				95488387251255F900FFF928 /* FavoritesCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		95CF544725115B8300941DC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				958F0F3B25110B080061391F /* Main.storyboard */,
+				958F0F4025110B0B0061391F /* LaunchScreen.storyboard */,
+				958F0F3E25110B0B0061391F /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95CF544825115B9A00941DC0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				95CF543825110D0100941DC0 /* UIColor+theme.swift */,
+				954883852512533200FFF928 /* VC +helpers.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,7 +162,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Heiner Bruß";
 				TargetAttributes = {
 					958F0F3125110B080061391F = {
@@ -128,6 +196,7 @@
 				958F0F4225110B0B0061391F /* LaunchScreen.storyboard in Resources */,
 				958F0F3F25110B0B0061391F /* Assets.xcassets in Resources */,
 				958F0F3D25110B080061391F /* Main.storyboard in Resources */,
+				95E7A78F2513F1A900FB3E94 /* Sunny Day Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +207,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				958F0F3A25110B080061391F /* ViewController.swift in Sources */,
+				9548838225123D6300FFF928 /* ExtensionWeatherVC + textFieldDelegate.swift in Sources */,
+				9548838025123B6900FFF928 /* ExtensionWeatherVC + location.swift in Sources */,
+				95E1CF5225140BA80089822C /* ExtensionFavoritesVC+tableView.swift in Sources */,
+				95CF543F251157F200941DC0 /* FavoritesListViewController.swift in Sources */,
+				954883862512533200FFF928 /* VC +helpers.swift in Sources */,
+				95CF543B251141CF00941DC0 /* NetworkManager.swift in Sources */,
+				95CF543D251146E200941DC0 /* OpenWeatherAPIRequest.swift in Sources */,
+				95488388251255F900FFF928 /* FavoritesCell.swift in Sources */,
+				95CF544225115ABA00941DC0 /* SunnyDayModel.xcdatamodeld in Sources */,
+				95CF543925110D0100941DC0 /* UIColor+theme.swift in Sources */,
+				958F0F3A25110B080061391F /* WeatherViewController.swift in Sources */,
+				95CF544A251163DC00941DC0 /* WeatherManager.swift in Sources */,
+				95CF544425115ACC00941DC0 /* CoreDataManager.swift in Sources */,
 				958F0F3625110B080061391F /* AppDelegate.swift in Sources */,
-				958F0F3825110B080061391F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +272,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +333,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -338,6 +420,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95CF544025115ABA00941DC0 /* SunnyDayModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95CF544125115ABA00941DC0 /* SunnyDayModel.xcdatamodel */,
+			);
+			currentVersion = 95CF544125115ABA00941DC0 /* SunnyDayModel.xcdatamodel */;
+			path = SunnyDayModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 958F0F2A25110B080061391F /* Project object */;
 }
