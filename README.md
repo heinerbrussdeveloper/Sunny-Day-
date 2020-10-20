@@ -26,6 +26,7 @@ the favorites button gets you to your favorites-list
 Here you can add and delete your favorite cities you want to look up the weather for
 Thats it-have fun using the app
 
+![](Sunny.gif)
 
 ## Built With
 
